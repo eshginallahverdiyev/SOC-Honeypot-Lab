@@ -351,7 +351,7 @@ All attacks were launched from **Kali Linux** against the Cowrie honeypot at `19
 **Hydra** brute-forced SSH credentials using `rockyou.txt`:
 
 ```bash
-hydra -l root -P /usr/share/wordlists/rockyou.txt -s 2222 ssh://192.168.49.132 -t 4 -V
+hydra -l root -P /usr/share/wordlists/rockyou.txt -s 2222 ssh://192.168.49.132 -t 64 -V
 ```
 
 <img src="images/kali-hydra-ssh.png" alt="Hydra SSH Brute Force" width="700"/>
