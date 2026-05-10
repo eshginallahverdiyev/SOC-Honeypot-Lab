@@ -2,7 +2,7 @@
 
 # 🍯 SOC Honeypot Detection Lab
 
-<img src="images/splunk-dashboard-ready.png" alt="Splunk Dashboard" width="800"/>
+
 
 <br/>
 
